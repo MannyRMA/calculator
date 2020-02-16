@@ -1,0 +1,61 @@
+/*
+    SENG 513 Assignment 2
+    Manuel Rodriguez
+    Simple calculator using html, css, javascript
+    CSS stylings
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* for desktop screens*/
+ @media (min-width: 600px){   
+.base
+{
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: skyblue;
+}
+}
+
+/* mobile friendly calculator base*/
+@media (max-width: 599px)
+{
+.base
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color: skyblue;
+}
+}
+
+/* the input field styling */
+.textview
+{
+    width: 600px;
+    height: 60px;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 5px;
+    color: rgb(108, 108, 236);
+    text-align: right;
+}
+
+/* button styling*/
+.button
+{
+    padding: 5px;
+    width: 119px;
+    height: 80px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 88);
+    color: rgb(253, 103, 4);
+}
