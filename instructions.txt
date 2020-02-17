@@ -1,0 +1,7 @@
+Tested on chrome
+
+To deploy: simply click on the URL https://mannyrma.github.io/calculator/ make sure its opened on google chrome, Its the one required for it to work the only one needed specified in the assignment
+
+uses media queries to make it mobile friendly for screen with width 599 pixels or smaller.
+
+
